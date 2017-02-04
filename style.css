@@ -1,0 +1,110 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.section-font {
+  color: white;
+  margin: 0 !important;
+}
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+.hero-unit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(27, 19, 13, 0.8);
+}
+.hero-banner {
+  height: 100vw;
+  background-color: white;
+}
+.fullscreen-bg {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+  width: 100vw;
+ }
+.fullscreen-bg_video {
+  z-index: 4;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+}
+.hero-text {
+  z-index: 5;
+  font-size: 10.2vw;
+  color: white;
+  position:absolute;
+  padding-bottom: 2em;
+}
+.sub-hero-text {
+  color:rgba(255, 250, 243, 0.9);
+  z-index: 5;
+  position:absolute;
+  font-size: 5vw;
+}
+.about-section{
+  padding-top: 10vh;
+  margin-bottom: 3em !important;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.about-header{
+  padding-top: 3vh;
+  padding-left: 8vw;
+}
+.about-paragraph{
+  padding-top: 5vh;
+  padding-left: 8vw;
+  line-height: 2.5em;
+}
+@media only screen and (min-width: 870px) {
+    .about-paragraph {
+        font-size: 1.2em;
+    }
+}
+@media only screen and (min-width: 990px) {
+    .about-paragraph {
+        font-size: 1.5em;
+    }
+}
+.portfolio-header{
+  padding-top: 10vh;
+}
+.tile-3{
+  width: 100%;
+}
+.contact-section {
+  background: #03a9f4;
+  height: 52vh;
+  display: flex;
+  align-items: center;
+}
+.mugshot{
+  background-color: white;
+  height: 23vh;
+  width: 20vw;
+  border-radius: 10vh 1vw;
+  background-image:url('img/lem-bw-shot.jpg');
+  background-size: cover;  
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  margin-left: 15vw;
+}
+.row{
+  margin: 0;
+}
+.container{
+  width: 100%;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+li {
+  font-size: 3vh;
+}
