@@ -84,6 +84,9 @@ body {
   display: flex;
   align-items: center;
 }
+.contact-heading{
+  text-decoration: underline;
+}
 .mugshot{
   background-color: white;
   height: 23vh;
