@@ -15,9 +15,12 @@ body {
   align-items: center;
   background-color: rgba(27, 19, 13, 0.8);
 }
-.hero-banner {
-  height: 100vw;
-  background-color: white;
+.hero-banner-mobile {
+}
+@media only screen and (min-width: 770px) {
+    .hero-banner-mobile {
+        display: none;
+      }
 }
 .fullscreen-bg {
   top: 0;
@@ -33,7 +36,12 @@ body {
   display: block;
   top: 0;
   left: 0;
-  width: 100% !important;
+  width: 100%;
+}
+@media only screen and (max-width: 770px) {
+    .fullscreen-bg .fullscreen-bg_video {
+        display: none;
+}
 }
 .hero-text {
   z-index: 5;
