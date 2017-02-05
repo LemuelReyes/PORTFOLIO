@@ -23,6 +23,7 @@ body {
     .hero-unit {
         background-image: none;
         height: auto;
+        width: 100%;
       }
 }
 .fullscreen-bg {
