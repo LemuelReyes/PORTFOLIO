@@ -15,6 +15,11 @@ body {
   align-items: center;
   background-color: rgba(27, 19, 13, 0.8);
 }
+@media only screen and (min:width: 770px) {
+.hero-unit {
+  background-color: white;
+}
+}
 .hero-banner-mobile {
 }
 @media only screen and (min-width: 770px) {
