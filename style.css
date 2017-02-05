@@ -24,20 +24,6 @@ body {
         height: auto;
       }
 }
-
-
-/*@media only screen and (min:width: 770px) {
-.hero-unit {
-  background-color: white;
-}
-}
-.hero-banner-mobile {
-}
-@media only screen and (min-width: 770px) {
-    .hero-banner-mobile {
-        display: none;
-      }
-}*/
 .fullscreen-bg {
   top: 0;
   right: 0;
